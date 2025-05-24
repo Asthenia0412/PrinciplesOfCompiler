@@ -1,4 +1,5 @@
-class SLR1Parser(LR0Parser):
+from LR0Item import LR0Item
+class SLR1Parser(LR0Item):
     def build_action_table(self):
         action_table = {}
         follow = self.compute_follow()

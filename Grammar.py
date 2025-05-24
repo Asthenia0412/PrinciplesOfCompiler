@@ -1,4 +1,4 @@
-class Grammer:
+class Grammar:
     def __init__(self, productions, start_symbol):
         self.productions = productions  # 产生式列表，如 [('E', ['E', '+', 'T']), ('E', ['T']), ...]
         self.start_symbol = start_symbol  # 开始符号

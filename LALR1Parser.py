@@ -1,3 +1,4 @@
+from LR1Item import LR1Item
 class LALR1Parser:
     def __init__(self, grammar):
         self.grammar = grammar
